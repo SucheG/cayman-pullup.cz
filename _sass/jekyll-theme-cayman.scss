@@ -63,7 +63,7 @@ a {
 
 .btn {
   display: inline-block;
-  margin-bottom: 1rem;
+  margin: 0.5rem;
   color: rgba(255, 255, 255, 0.7);
   background-color: rgba(255, 255, 255, 0.08);
   border-color: rgba(255, 255, 255, 0.2);
@@ -79,10 +79,6 @@ a {
     border-color: rgba(255, 255, 255, 0.3);
   }
 
-  + .btn {
-    margin-left: 1rem;
-  }
-
   @include large {
     padding: 0.75rem 1rem;
   }
@@ -93,15 +89,9 @@ a {
   }
 
   @include small {
-    display: block;
-    width: 100%;
+    width: 40%;
     padding: 0.75rem;
     font-size: 0.9rem;
-
-    + .btn {
-      margin-top: 1rem;
-      margin-left: 0;
-    }
   }
 }
 
@@ -112,21 +102,26 @@ a {
   background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
 
   @include large {
-    padding: 5rem 6rem;
+    padding: 2rem 6rem;
   }
 
   @include medium {
-    padding: 3rem 4rem;
+    padding: 1rem 2rem;
   }
 
   @include small {
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
   }
 }
 
 .project-name {
   margin-top: 0;
   margin-bottom: 0.1rem;
+
+  a {
+    text-decoration: none;
+    color: $header-heading-color;
+  }
 
   @include large {
     font-size: 3.25rem;
@@ -143,6 +138,8 @@ a {
 
 .project-tagline {
   margin-bottom: 2rem;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 1rem;
   font-weight: normal;
   opacity: 0.7;
 
