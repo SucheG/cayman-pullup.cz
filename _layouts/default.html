@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: "cs" }}">
   <head>
 
     {% if site.google_analytics %}
@@ -21,18 +21,19 @@
     <link rel="icon" type="image/png" href="/favicon-256.png" />
   </head>
   <body>
-    <a id="skip-to-content" href="#content">Skip to the content.</a>
+    <!--<a id="skip-to-content" href="#content">Skip to the content.</a>-->
 
     <header class="page-header" role="banner">
+      <span>&bull; <a href="/kontakt">Kontakt</a></span>
+      <span>&bull; <a href="/o-webu">O webu</a></span>
+      <br>
       <h1 class="project-name">
-        <a href="">
+        <a href="/">
           {{ site.title | default: site.github.repository_name }}
         </a>
       </h1>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
 
-      <a href="{{ site.odkaz2 }}" class="btn">O webu</a>
-      <!-- proč web znikl: nedostatek kvalitních informací pro širokou veřejnost, spojování komunit -->
       <a href="{{ site.odkaz1 }}" class="btn">Cviky a technika</a>
       <a href="{{ site.odkaz2 }}" class="btn">Cvičební programy</a>
       <a href="{{ site.odkaz2 }}" class="btn">Nástroje</a>
@@ -40,10 +41,9 @@
       <a href="{{ site.odkaz2 }}" class="btn">Kde cvičit</a>
       <a href="{{ site.odkaz2 }}" class="btn">Odkaz 2</a>
       <a href="{{ site.odkaz2 }}" class="btn">Odkaz 2</a>
-      <a href="{{ site.odkaz2 }}" class="btn">Odkaz 2</a>
-      <a href="{{ site.odkaz2 }}" class="btn">Odkaz 2</a>
-      <a href="/mujTest.html" class="btn">Můj test page</a>
-      <a href="{{ site.odkaz2 }}" class="btn" style="visibility: hidden;">Odkaz 2</a>
+      <a href="/slozka/jina-stranka/" class="btn">Složka - jiná stránka</a>
+      <a href="/slozka/" class="btn">Složka</a>
+      <a href="/mujTest/" class="btn">Můj test page</a>
     </header>
 
     <main id="content" class="main-content" role="main">
