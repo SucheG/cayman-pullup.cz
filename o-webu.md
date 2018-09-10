@@ -8,17 +8,27 @@ Nejlepší web o Kalistenice a Street Workoutu, tvořen pro radost.
 
 Hlavním motivem tohoto webu je poskytnout široké veřejnosti kvalitní informace a
 šířit povědomí o Kalistenice a Street Workoutu.
-Naleznete zde vše co se týká tohoto sportu, od cviků přes místa kde cvičit, až po komunity.
+Naleznete zde vše, co se týká tohoto sportu, od cviků přes místa kde cvičit, až po komunity.
 
-Nikdo nemá rád otravné reklamy a články, které jsou psány za účelem zvýšení návštěvy.
-Primárním úkolem tohoto webu je předat ostatním ucelené, přimočaré informace.
+<i class="material-icons">face</i>
 
+## Poděkování
 
+Zde je seznam lidí, technologií a projektů, které byly použity pro tvorbu tohoto webu.
 
-## Co je Kalistenika a Street Workout
-Jaký je rozdíl mezi těmito pojmy? Posledních několik let se dostávají více do povědomí a
-to i díky osobnostem, které tyto sporty šířily a věnovali se jim.
+### Tým
 
-### Kalistenika
+### Tester
 
-### Street Workout
+### Podpora
+
+### GitHub Pages
+https://pages.github.com/
+
+### GitHub Pages Cayman Theme
+https://pages-themes.github.io/cayman/
+
+### Google Material Icons
+https://google.github.io/material-design-icons/
+
+### Leaflet or Mapbox or Google Maps
