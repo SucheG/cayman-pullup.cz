@@ -2,4 +2,4 @@
 layout: default
 ---
 
-# Cviky
+# Lidé
