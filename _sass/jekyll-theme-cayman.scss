@@ -68,6 +68,11 @@ a {
 
 .material-icons {
   vertical-align: middle;
+  font-size: 1.8rem;
+
+  @include small {
+    font-size: 1.6rem;
+  }
 }
 
 .btn {
