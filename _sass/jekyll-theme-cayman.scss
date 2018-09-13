@@ -68,10 +68,10 @@ a {
 
 .material-icons {
   vertical-align: middle;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
 
   @include small {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 }
 
@@ -136,7 +136,7 @@ a {
   }
 
   @include medium {
-    padding: .5rem 4rem;
+    padding: .5rem 7rem;
   }
 
   @include small {

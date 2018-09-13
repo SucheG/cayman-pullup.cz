@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3316f2ed-d76c-4f03-be0f-6377816b3898" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_sass/jekyll-theme-cayman.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/jekyll-theme-cayman.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -52,7 +50,7 @@
         <counts>
           <entry key="html" value="400" />
           <entry key="md" value="1717" />
-          <entry key="scss" value="230" />
+          <entry key="scss" value="236" />
           <entry key="yml" value="58" />
         </counts>
       </usages-collector>
@@ -61,7 +59,7 @@
           <entry key="HTML" value="400" />
           <entry key="Markdown" value="14" />
           <entry key="PLAIN_TEXT" value="1703" />
-          <entry key="SCSS" value="230" />
+          <entry key="SCSS" value="236" />
           <entry key="YAML" value="58" />
         </counts>
       </usages-collector>
@@ -98,8 +96,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_sass/jekyll-theme-cayman.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="70" column="20" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
+            <state relative-caret-position="149">
+              <caret line="64" column="31" lean-forward="true" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -244,12 +242,12 @@
       <workItem from="1536786842269" duration="106000" />
       <workItem from="1536786966974" duration="37000" />
       <workItem from="1536787020533" duration="782000" />
-      <workItem from="1536869532898" duration="2186000" />
+      <workItem from="1536869532898" duration="2487000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20714000" />
+    <option name="totallyTimeSpent" value="21015000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="721" y="0" width="822" height="840" extended-state="0" />
@@ -398,8 +396,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_sass/jekyll-theme-cayman.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="70" column="20" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
+        <state relative-caret-position="149">
+          <caret line="64" column="31" lean-forward="true" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
         </state>
       </provider>
     </entry>
