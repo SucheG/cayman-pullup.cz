@@ -4,8 +4,9 @@
     <list default="true" id="3316f2ed-d76c-4f03-be0f-6377816b3898" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/jekyll-theme-cayman.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/jekyll-theme-cayman.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cviky/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/cviky/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kontakt.md" beforeDir="false" afterPath="$PROJECT_DIR$/kontakt.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partneri.md" beforeDir="false" afterPath="$PROJECT_DIR$/partneri.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sluzby.md" beforeDir="false" afterPath="$PROJECT_DIR$/sluzby.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,22 +21,23 @@
     <session id="-2139245705">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
-          <entry key="md" value="13" />
+          <entry key="md" value="18" />
           <entry key="png" value="1" />
           <entry key="scss" value="8" />
           <entry key="txt" value="1" />
-          <entry key="yml" value="1" />
+          <entry key="yml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -43,24 +45,24 @@
           <entry key="HTML" value="1" />
           <entry key="Image" value="1" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="13" />
+          <entry key="PLAIN_TEXT" value="18" />
           <entry key="SCSS" value="8" />
-          <entry key="YAML" value="1" />
+          <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="348" />
-          <entry key="md" value="1688" />
+          <entry key="html" value="354" />
+          <entry key="md" value="1717" />
           <entry key="scss" value="167" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="348" />
+          <entry key="HTML" value="354" />
           <entry key="Markdown" value="14" />
-          <entry key="PLAIN_TEXT" value="1674" />
+          <entry key="PLAIN_TEXT" value="1703" />
           <entry key="SCSS" value="167" />
           <entry key="YAML" value="1" />
         </counts>
@@ -72,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="42" column="67" selection-start-line="42" selection-start-column="62" selection-end-line="42" selection-end-column="67" />
+            <state relative-caret-position="180">
+              <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#footer#0;n#main#0;n#body#0;n#!!top" expanded="true" />
               </folding>
@@ -81,7 +83,43 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/o-webu.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/partneri.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sluzby.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kontakt.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mista/index.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
@@ -91,9 +129,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.md">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_sass/jekyll-theme-cayman.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="555">
               <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
             </state>
           </provider>
@@ -119,9 +162,12 @@
         <option value="$PROJECT_DIR$/nastroje/index.md" />
         <option value="$PROJECT_DIR$/lide/index.md" />
         <option value="$PROJECT_DIR$/cviky/index.md" />
-        <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/_sass/jekyll-theme-cayman.scss" />
         <option value="$PROJECT_DIR$/mista/index.md" />
+        <option value="$PROJECT_DIR$/_layouts/default.html" />
+        <option value="$PROJECT_DIR$/partneri.md" />
+        <option value="$PROJECT_DIR$/sluzby.md" />
+        <option value="$PROJECT_DIR$/kontakt.md" />
       </list>
     </option>
   </component>
@@ -163,6 +209,11 @@
             <path>
               <item name="pullup.cz-cayman" type="b2602c69:ProjectViewProjectNode" />
               <item name="pullup.cz-cayman" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pullup.cz-cayman" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pullup.cz-cayman" type="462c0819:PsiDirectoryNode" />
+              <item name="_layouts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pullup.cz-cayman" type="b2602c69:ProjectViewProjectNode" />
@@ -226,12 +277,13 @@
       <workItem from="1536786266167" duration="546000" />
       <workItem from="1536786842269" duration="106000" />
       <workItem from="1536786966974" duration="37000" />
-      <workItem from="1536787020533" duration="685000" />
+      <workItem from="1536787020533" duration="782000" />
+      <workItem from="1536869532898" duration="326000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18431000" />
+    <option name="totallyTimeSpent" value="18854000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -277,22 +329,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/o-webu.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partneri.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kontakt.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sluzby.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/404.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -331,13 +367,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cviky/index.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -346,28 +375,65 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mista/asda.md" />
-    <entry file="file://$PROJECT_DIR$/index.md" />
+    <entry file="file://$PROJECT_DIR$/mista/index.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_sass/jekyll-theme-cayman.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="555">
           <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="42" column="67" selection-start-line="42" selection-start-column="62" selection-end-line="42" selection-end-column="67" />
+        <state relative-caret-position="180">
+          <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#footer#0;n#main#0;n#body#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mista/index.md">
+    <entry file="file://$PROJECT_DIR$/o-webu.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        <state relative-caret-position="180">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partneri.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sluzby.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kontakt.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
         </state>
       </provider>
     </entry>
