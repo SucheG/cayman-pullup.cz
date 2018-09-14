@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "cs" }}">
+<html lang="{{ site.lang | default: 'cs' }}">
   <head>
 
     {% if site.google_analytics %}
@@ -18,6 +18,7 @@
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="icon" type="image/png" href="/favicon-088-white-256.png" />
   </head>
@@ -25,11 +26,21 @@
     <!--<a id="skip-to-content" href="#content">Skip to the content.</a>-->
 
     <header class="page-header" role="banner">
-      <span>&bull; <a href="/kontakt">Kontakt</a></span>
-      <span>&bull; <a href="/partneri">Partneři</a></span>
-      <span>&bull; <a href="/sluzby">Služby</a></span>
-      <span>&bull; <a href="/o-webu">O webu</a></span>
-      <br>
+      <div style="width: 100%;">
+        <div class="left">
+          <span>
+            <i class="material-icons as-btn">search</i>
+          </span>
+
+        </div>
+        <div class="right">
+          <span class="as-btn">&bull; <a href="/kontakt">Kontakt</a></span>
+          <span class="as-btn">&bull; <a href="/partneri">Partneři</a></span>
+          <span class="as-btn">&bull; <a href="/sluzby">Služby</a></span>
+          <span class="as-btn">&bull; <a href="/o-webu">O webu</a></span>
+        </div>
+      </div>
+
       <h1 class="project-name">
         <a href="/">
           {{ site.title | default: site.github.repository_name }}
@@ -37,11 +48,16 @@
       </h1>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
 
-      <a href="/cviky/" class="btn"><i class="material-icons">whatshot</i> cviky</a>
-      <a href="/nastroje/" class="btn"><i class="material-icons">timer</i> nástroje</a>
-      <a href="/lide/" class="btn"><i class="material-icons">people</i> lidé</a>
-      <a href="/mista/" class="btn"><i class="material-icons">place</i>místa</a>
+      <a href="/cviky/" class="btn" title="Seznam cviků"><i class="material-icons">whatshot</i> Cviky</a>
+      <a href="/nastroje/" class="btn" title="Nástroje a pomůcky"><i class="material-icons">timer</i> Nástroje</a>
+      <a href="/lide/" class="btn" title="Lidé a komunity"><i class="material-icons">people</i> Lidé</a>
+      <a href="/mista/" class="btn" title="Místa na cvičení"><i class="material-icons">place</i>Místa</a>
+      <a href="#" class="btn" title="Média a zdroje"><i class="material-icons">video_library</i> Média</a>
     </header>
+    <div>
+
+      <i class="material-icons as-btn">bookmark</i>
+    </div>
 
     <main id="content" class="main-content" role="main">
 
