@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3316f2ed-d76c-4f03-be0f-6377816b3898" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/posts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/jekyll-theme-cayman.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/jekyll-theme-cayman.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/pullup.cz.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/pullupcz.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lide/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/lide/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mista/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/mista/index.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -65,7 +57,7 @@
         <counts>
           <entry key="2019-12-12-second-post" value="7" />
           <entry key="css" value="4" />
-          <entry key="html" value="978" />
+          <entry key="html" value="1032" />
           <entry key="js" value="1514" />
           <entry key="md" value="3159" />
           <entry key="scss" value="831" />
@@ -75,7 +67,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="4" />
-          <entry key="HTML" value="978" />
+          <entry key="HTML" value="1032" />
           <entry key="JavaScript" value="1514" />
           <entry key="Markdown" value="14" />
           <entry key="PLAIN_TEXT" value="3152" />
@@ -91,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
-              <caret line="73" column="60" selection-start-line="73" selection-start-column="60" selection-end-line="73" selection-end-column="60" />
+              <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#1745#1751#0" expanded="true" />
@@ -297,12 +289,12 @@
       <workItem from="1536786842269" duration="106000" />
       <workItem from="1536786966974" duration="37000" />
       <workItem from="1536787020533" duration="782000" />
-      <workItem from="1536869532898" duration="34725000" />
+      <workItem from="1536869532898" duration="34969000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53253000" />
+    <option name="totallyTimeSpent" value="53497000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="697" y="0" width="846" height="840" extended-state="0" />
@@ -505,7 +497,7 @@
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="73" column="60" selection-start-line="73" selection-start-column="60" selection-end-line="73" selection-end-column="60" />
+          <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
           <folding>
             <element signature="n#style#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#1745#1751#0" expanded="true" />
