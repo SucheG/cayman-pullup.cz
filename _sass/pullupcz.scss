@@ -1,0 +1,84 @@
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+.radek {
+  width: 100%;
+
+  :first-child {
+    margin-left: 0;
+  }
+
+  :last-child {
+    margin-right: 0;
+  }
+}
+
+.mapa {
+  border: 1px solid rgba(0, 128, 128, .3);
+  height: 550px;
+  width: 100%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.as-btn {
+  cursor: pointer;
+  opacity: .7;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.btn-088 {
+  color: rgba(0, 128, 128, .6);
+  background-color: rgba(0, 128, 128, .01);
+  border: 1px solid rgba(0, 128, 128, .2);
+
+  &:hover {
+    color: rgba(0, 128, 128, .8);
+    background-color: rgba(0, 128, 128, .1);
+    border-color: rgba(0, 128, 128, .3);
+  }
+
+  &:active {
+    background-color: rgba(0, 128, 128, .05);
+  }
+}
+
+.material-icons {
+  vertical-align: middle;
+  font-size: 1.7rem;
+
+  @include small {
+    font-size: 1.4rem;
+  }
+}
+
+.page-header {
+  div {
+    display: inline-block;
+  }
+
+  span {
+    margin: 0 .3rem;
+    font-size: .8rem;
+    float: right;
+
+    a {
+      color: inherit;
+    }
+
+  }
+}

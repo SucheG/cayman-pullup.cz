@@ -5,31 +5,19 @@ layout: default
 # Místa pro Kalisteniku a Street Workout
 
 ## Mapa
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/>
+
+
+
+<div id="zoomDiv" class="radek" ></div>
+
 <div id="map" class="mapa"></div>
+<script src='https://api.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css' rel='stylesheet' />
+<script src="/assets/js/map-mista.min.js"><script>
 
-## Seznam outdoor hřišť
-
-## Seznam indoor posiloven
-
-## Které komunity kam chodí
-
-## Kam chodí Lidé a trenéři
-
-## přidat místo
-
-
-<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA==" crossorigin=""></script>
-<script>
-
-    //////////// vyzkoušet mapbox
-
-    var map = L.map('map').setView([51.505, -0.09], 13);
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-    }).addTo(map);
-
-    L.marker([51.5, -0.09]).addTo(map)
-        .bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
-        .openPopup();
-</script>
+## Obsah
+- Seznam outdoor hřišť
+- Seznam indoor posiloven
+- Které komunity kam chodí
+- Kam chodí Lidé a trenéři
+- přidat místo
