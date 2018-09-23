@@ -36,6 +36,8 @@
         <div class="right">
           <span class="as-btn">&bull; <a href="/sluzby">Služby</a></span>
           <span class="as-btn">&bull; <a href="/eshop">E-Shop</a></span>
+          <span><a href="#support-us"><i style="font-size: 1.2rem;" class="material-icons">favorite_border</i></a></span>
+          <span><a href="#user-settings"><i style="font-size: 1.2rem;" class="material-icons">settings</i></a></span>
         </div>
       </div>
 
@@ -47,15 +49,15 @@
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
       <h2 class=""><i class="material-icons">build</i> Currently under development</h2>
 
-      <a href="/cviky/" class="btn" title="Seznam cviků"><i class="material-icons">whatshot</i> Cviky</a>
+      <a href="/cviky/" class="btn" title="Seznam cviků"><i class="material-icons">whatshot</i> Workout</a>
       <a href="/nastroje/" class="btn" title="Nástroje a pomůcky"><i class="material-icons">timer</i> Nástroje</a>
       <a href="/lide/" class="btn" title="Lidé a komunity"><i class="material-icons">people</i> Lidé</a>
       <a href="/mista/" class="btn" title="Místa na cvičení"><i class="material-icons">place</i>Místa</a>
       <a href="#" class="btn" title="Média a zdroje"><i class="material-icons">video_library</i> Média</a>
     </header>
-    <div>
 
-      <i class="material-icons as-btn">bookmark</i>
+    <div class="main-content">
+      <i id="bookmark-icon" class="material-icons as-btn">bookmark</i>
     </div>
 
     <main id="content" class="main-content" role="main">
@@ -76,5 +78,7 @@
 
       </footer>
     </main>
+
+    <script src="/assets/js/all-pages.min.js"></script>
   </body>
 </html>

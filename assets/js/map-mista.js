@@ -38,9 +38,11 @@ map.addControl(new mapboxgl.GeolocateControl({
 }));
 
 var zoomValues = [
-  {name: "CZ", center: centerCZ, zoom: zoomCZ},
-  {name: "SK", center: [19.76,48.68], zoom: 6.5},
-  {name: "Svět", center: [0,30], zoom: 1}
+  // west, south, east, north
+  // sw, ne
+  {name: "CZ", bb: [[12, 48], [19, 51.3]]},
+  {name: "SK", bb: [[16.6, 47.4], [23, 50.2]]},
+  {name: "Svět", bb: [[-156.76, -56.5], [178.43, 82]]}
 ];
 
 var zoomDiv = document.getElementById('zoomDiv');
@@ -67,13 +69,7 @@ if (zoomDiv) {
     var btn = createElement('span', ['class= btn btn-088'], value.name, zoomDiv);
 
     btn.addEventListener('click', function() {
-      map.flyTo({
-        center: value.center,
-        zoom: value.zoom,
-        duration: 1000,
-        speed: 1,
-        curve: 0.5,
-      });
+      map.fitBounds(value.bb);
     });
   });
 

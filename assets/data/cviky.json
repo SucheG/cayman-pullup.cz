@@ -1,0 +1,51 @@
+{
+  "todo": "chci json, ze kterého se vygenerují md soubory",
+  "ex": {
+    "1": {
+      "nazev": "dřep",
+      "slug": "slug",
+      "popis": "popis dřepu",
+      "techinka": "popis techniky",
+      "uroven": 1,
+    },
+    "2": {},
+
+  }
+
+}
+
+úrovně:
+0 - nic nedělání, ležení, sezení
+1 - přirozené pohyby: chůze, stání
+2 - aktivní pohyb: běh, vis, dřepění
+3 - jednoduché varianty základních cviků: 45° klik, sednutí na židli
+4 - základní cviky + jednoduché variatny těžších cviků: klik, dřep, australský přítah
+5 - těžší varianty základnch cviků ....
+
+cvik
+  název str
+  slug str
+
+  popis
+  technika
+  obtížnost
+
+  je_základem_pro [] // těžší cviky
+  požadavky []
+
+  varianty [] // druhy a uchopy
+
+  media {
+    technika: []
+    další: []
+  }
+
+  potřebné_vybavení []
+
+  procvičuje []
+
+
+tělo:
+
+
+vybavení
