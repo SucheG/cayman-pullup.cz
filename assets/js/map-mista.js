@@ -5,7 +5,8 @@ var zoomCZ = 6.4;
 
 var map = new mapboxgl.Map({
   container: 'map',
-  style: 'mapbox://styles/mapbox/streets-v10',
+  style: 'mapbox://styles/pullupcz/cjmpbn331fibo2rnyxvrdmvc9',
+
   center: centerCZ,
   zoom: zoomCZ,
   scrollZoom: false
@@ -13,21 +14,21 @@ var map = new mapboxgl.Map({
 map.addControl(new mapboxgl.NavigationControl());
 map.addControl(new mapboxgl.FullscreenControl());
 
-// map.on('click', function (e) {
-//   var features = map.queryRenderedFeatures(e.point, {
-//     layers: ['name-of-layer'] // name of layer
-//   });
-//
-//   if (!features.length) { return; }
-//
-//   var feature = features[0];//
-//
-//   var popup = new mapboxgl.Popup({ offset: [0, -15] })
-//     .setLngLat(feature.geometry.coordinates)
-//     .setHTML('<h3>' + feature.properties.index + '</h3><p>' + feature.properties.name + '</p>')
-//     .setLngLat(feature.geometry.coordinates)
-//     .addTo(map);
-// });
+map.on('click', function (e) {
+  var features = map.queryRenderedFeatures(e.point, {
+    layers: ['mista'] // name of layer
+  });
+
+  if (!features.length) { return; }
+
+  var feature = features[0];//
+
+  var popup = new mapboxgl.Popup({ offset: [0, -15] })
+    .setLngLat(feature.geometry.coordinates)
+    .setHTML('<h3>' + feature.properties.nazev + '</h3><p>' + feature.properties.popis + '</p>')
+    .setLngLat(feature.geometry.coordinates)
+    .addTo(map);
+});
 
 // Add geolocate control to the map.
 map.addControl(new mapboxgl.GeolocateControl({
@@ -42,7 +43,7 @@ var zoomValues = [
   // sw, ne
   {name: "CZ", bb: [[12, 48], [19, 51.3]]},
   {name: "SK", bb: [[16.6, 47.4], [23, 50.2]]},
-  {name: "Svět", bb: [[-156.76, -56.5], [178.43, 82]]}
+  {name: "Svět", bb: [[-131, -52], [159, 77]]}
 ];
 
 var zoomDiv = document.getElementById('zoomDiv');
