@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06084c6e-8714-413d-8355-d201d3bf1616" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pullup/migrations/0003_auto_20181012_0819.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pullup/migrations/0004_auto_20181013_2129.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pullup/migrations/0005_auto_20181017_0710.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pullup/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/pullup/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pullup/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pullup/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,47 +27,71 @@
     <session id="264630123">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.111" value="1" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.296" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.50" value="1" />
+          <entry key="project.open.time.98" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="12" />
+          <entry key="py" value="13" />
           <entry key="pyi" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="12" />
+          <entry key="Python" value="13" />
           <entry key="PythonStub" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Django Console" value="3" />
-          <entry key="py" value="2138" />
-          <entry key="py@_project" value="66" />
+          <entry key="py" value="3279" />
+          <entry key="py@_project" value="155" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CommandLine" value="26" />
-          <entry key="PLAIN_TEXT" value="40" />
-          <entry key="Python" value="2141" />
+          <entry key="CommandLine" value="78" />
+          <entry key="PLAIN_TEXT" value="77" />
+          <entry key="Python" value="3282" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pullup/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="620">
+              <caret line="75" column="44" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
+              <folding>
+                <marker date="1539756524155" expanded="true" signature="29:31" ph="..." />
+                <marker date="1539756524155" expanded="true" signature="753:756" ph="..." />
+                <marker date="1539756524155" expanded="true" signature="775:778" ph="..." />
+                <marker date="1539756524155" expanded="true" signature="775:1321" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pullup/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,7 +99,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pullup/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
+            <state relative-caret-position="84">
               <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="29" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
@@ -77,10 +108,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pullup/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
+            <state relative-caret-position="532">
               <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
@@ -94,7 +125,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://C:/PyVenv/PY37_DJ21/Lib/site-packages/mapbox/services/uploads.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
+            <state relative-caret-position="1722">
               <caret line="130" selection-start-line="130" selection-end-line="130" />
             </state>
           </provider>
@@ -112,6 +143,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>tileset</find>
+      <find>ManyToManyField</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -120,15 +152,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pullup/admin.py" />
         <option value="$PROJECT_DIR$/_scripts/__init__.py" />
         <option value="$PROJECT_DIR$/_scripts/map_box_upload.py" />
         <option value="$PROJECT_DIR$/_scripts/tasks.py" />
         <option value="$PROJECT_DIR$/_project/urls.py" />
         <option value="$PROJECT_DIR$/_scripts/mapbox_upload.py" />
-        <option value="$PROJECT_DIR$/pullup/models.py" />
         <option value="$PROJECT_DIR$/pullup/views.py" />
         <option value="$PROJECT_DIR$/pullup/urls.py" />
+        <option value="$PROJECT_DIR$/pullup/admin.py" />
+        <option value="$PROJECT_DIR$/pullup/models.py" />
       </list>
     </option>
   </component>
@@ -139,9 +171,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="741" />
+    <option name="x" value="883" />
     <option name="y" value="-18" />
-    <option name="width" value="978" />
+    <option name="width" value="980" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -293,12 +325,12 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12214765" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14295302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16083916" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23496504" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -306,7 +338,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="manage.py@_project" order="10" visible="true" weight="0.32447553" />
+      <window_info anchor="bottom" id="manage.py@_project" order="10" weight="0.28671327" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.33239037" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.32867134" />
@@ -353,13 +385,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pullup/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_scripts/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -377,16 +402,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/PyVenv/PY37_DJ21/Lib/site-packages/mapbox/services/uploads.py">
+    <entry file="file://$PROJECT_DIR$/pullup/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="130" selection-start-line="130" selection-end-line="130" />
+        <state relative-caret-position="620">
+          <caret line="75" column="44" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
+          <folding>
+            <marker date="1539756524155" expanded="true" signature="29:31" ph="..." />
+            <marker date="1539756524155" expanded="true" signature="753:756" ph="..." />
+            <marker date="1539756524155" expanded="true" signature="775:778" ph="..." />
+            <marker date="1539756524155" expanded="true" signature="775:1321" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pullup/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pullup/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
+        <state relative-caret-position="84">
           <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="29" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
@@ -394,22 +435,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pullup/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pullup/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="532">
           <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
             <marker date="1538547839492" expanded="true" signature="413:414" ph="..." />
             <marker date="1538547839492" expanded="true" signature="413:417" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/PyVenv/PY37_DJ21/Lib/site-packages/mapbox/services/uploads.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1722">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
         </state>
       </provider>
     </entry>
