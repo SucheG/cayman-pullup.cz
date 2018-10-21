@@ -4,11 +4,13 @@
       <sourceFilesUrls>
         <item url="file://$PROJECT_DIR$/assets/js/all-pages.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/map-mista.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/test/img_post.min.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
       <root url="file://$PROJECT_DIR$/assets/js/all-pages.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/map-mista.min.js" />
+      <root url="file://$PROJECT_DIR$/assets/js/test/img_post.min.js" />
     </CLASSES>
     <SOURCES />
   </library>
