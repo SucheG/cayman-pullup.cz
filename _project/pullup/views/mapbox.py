@@ -1,7 +1,7 @@
 from django.shortcuts import render, HttpResponse
 
 from mapbox import Uploader, Datasets
-from .models import Misto
+from pullup.models import Misto
 from json import dumps
 
 ALL_AT = 'sk.eyJ1IjoicHVsbHVwY3oiLCJhIjoiY2ptc3E0YTNlMGN6cTN2b3l2dm93amFiciJ9.UHSWkNTKNVZmqGjnYiITPw'

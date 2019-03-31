@@ -1,0 +1,12 @@
+1) Popis:
+Binární strom, lidí.
+
+
+2) Node:
+    a) založení:
+    + na HTML
+    formulář: jmeno, email, trenér,
+    odešle se
+    na email příjde odkaz s aktivací + další odkazy pro ovlávání účtu
+
+3) materiály dostupné pouze pro ty co mají kod
