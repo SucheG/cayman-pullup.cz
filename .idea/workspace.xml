@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3316f2ed-d76c-4f03-be0f-6377816b3898" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_project/letadlo/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_project/letadlo/migrations/0002_auto_20181125_2345.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_project/letadlo/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_project/testovani/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_project/_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/_project/_project/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_project/_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/_project/_project/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_project/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/_project/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_project/pullup/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/_project/pullup/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_project/pullup/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/_project/pullup/views/mapbox.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index_old.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -79,7 +68,7 @@
         <counts>
           <entry key="2019-12-12-second-post" value="7" />
           <entry key="css" value="4" />
-          <entry key="html" value="3593" />
+          <entry key="html" value="3602" />
           <entry key="js" value="3821" />
           <entry key="json" value="948" />
           <entry key="md" value="3957" />
@@ -91,7 +80,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="4" />
-          <entry key="HTML" value="3593" />
+          <entry key="HTML" value="3602" />
           <entry key="JSON" value="948" />
           <entry key="JavaScript" value="3821" />
           <entry key="Markdown" value="17" />
@@ -160,8 +149,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+            <state relative-caret-position="68">
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -659,8 +648,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        <state relative-caret-position="68">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
