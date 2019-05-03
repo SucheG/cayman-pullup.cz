@@ -5,7 +5,7 @@
   <title>Pullup.cz</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
-  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
 </head>
 <body>
 <section class="hero is-link is-fullheight has-text-centered">
@@ -19,11 +19,63 @@
       </h2>
       <div class="columns is-centered is-mobile">
         <div class="column is-three-quarters-mobile is-two-thirds-tablet is-half-desktop is-one-third-widescreen is-one-quarter-fullhd">
-          <div data-type="countdown" data-id="1092916" class="tickcounter" style="width: 100%; position: relative; padding-bottom: 25%"><a href="//www.tickcounter.com/countdown/1092916/zaciname-za" title="Začínáme za">Začínáme za</a><a href="//www.tickcounter.com/" title="Countdown">Countdown</a></div><script>(function(d, s, id) { var js, pjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//www.tickcounter.com/static/js/loader.js"; pjs.parentNode.insertBefore(js, pjs); }(document, "script", "tickcounter-sdk"));</script>
-          <!--<div data-type="countdown" data-id="1091070" class="tickcounter" style="width: 400px; height: 100px; margin: 0 auto"><a href="//www.tickcounter.com/countdown/1091070/zaciname-za" title="Začínáme za">Začínáme za</a><a href="//www.tickcounter.com/" title="Countdown">Countdown</a></div><script>(function(d, s, id) { var js, pjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//www.tickcounter.com/static/js/loader.js"; pjs.parentNode.insertBefore(js, pjs); }(document, "script", "tickcounter-sdk"));</script>-->
+          <p>Brzy začínáme. Přidej si nás na sítích <i class="far fa-thumbs-up"></i> tréninky máme každou neděli <i class="fas fa-fire-alt"></i> </p>
         </div>
       </div>
     </div>
+  </div>
+  <div class="hero-foot has-background-white" style="padding-top: 1em;">
+
+    <div id="social" class="content has-text-centered">
+      <div class="field is-grouped is-grouped-multiline" style="justify-content: center;">
+        <div class="control hover-parent" data-hover-class="is-link">
+          <a class="tags has-addons are-medium" href="https://fb.me/pullupcz">
+            <span class="tag hover-child">
+              <span class="icon"><i class="fab fa-facebook-f"></i></span>
+            </span>
+            <span class="tag is-hidden-mobile">@pullupcz</span>
+          </a>
+        </div>
+        <div class="control hover-parent" data-hover-class="is-link">
+          <a class="tags has-addons are-medium" href="https://m.me/pullupcz">
+            <span class="tag hover-child">
+              <span class="icon"><i class="fab fa-facebook-messenger"></i></span>
+            </span>
+            <span class="tag is-hidden-mobile">m.me/pullupcz</span>
+          </a>
+        </div>
+        <div class="control hover-parent" data-hover-class="is-info">
+          <a class="tags has-addons are-medium" href="https://twitter.com/pullupcz">
+            <span class="tag hover-child">
+              <span class="icon"><i class="fab fa-twitter"></i></span>
+            </span>
+            <span class="tag is-hidden-mobile">@pullupcz</span>
+          </a>
+        </div>
+        <div class="control hover-parent" data-hover-class="is-danger">
+          <a class="tags has-addons are-medium" href="https://www.instagram.com/pullupcz">
+            <span class="tag hover-child">
+              <span class="icon"><i class="fab fa-instagram"></i></span>
+            </span>
+            <span class="tag is-hidden-mobile">pullupcz</span>
+          </a>
+        </div>
+      </div>
+      <script>
+        document.querySelectorAll('#social .hover-parent').forEach(function (parent) {
+          var child = parent.querySelector('.hover-child');
+          var cls = parent.dataset.hoverClass;
+          parent.addEventListener('mouseleave', function () {
+            child.classList.remove(cls);
+          });
+          parent.addEventListener('mouseenter', function () {
+            child.classList.add(cls);
+          });
+        })
+      </script>
+      <p></p>
+    </div>
+
   </div>
 </section>
 </body>
